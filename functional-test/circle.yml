@@ -1,0 +1,26 @@
+machine:
+  node:
+    version: 0.12.5
+
+dependencies:
+  pre:
+    - npm -g install grunt-cli karma bower
+    - bower cache clean
+    - wget https://saucelabs.com/downloads/sc-latest-linux.tar.gz
+    - tar -xzf sc-latest-linux.tar.gz
+  override:
+    - npm install
+    - bower install
+    - grunt bump
+    - grunt build
+    - grunt compile
+test:
+  override:
+    - grunt karma:unit
+    - grunt karmaconfig
+    - grunt karma:continuous
+    - cd sc-*-linux && bin/sc -u $SAUCE_USERNAME -k $SAUCE_ACCESS_KEY -f ~/sc_ready:
+          background: true
+        # Wait for tunnel to be ready
+    - while [ ! -e ~/sc_ready ]; do sleep 1; done
+    - grunt protractor_desktop

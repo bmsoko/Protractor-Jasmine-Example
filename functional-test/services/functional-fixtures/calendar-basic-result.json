@@ -1,0 +1,4852 @@
+{
+  "endpoint_name": "calendar",
+  "method": "POST",
+  "result_count": "5",
+  "timing": {
+    " calendar Constructor called": "0.000 (0.000)",
+    "  calendar Destructor called": "0.392 (0.392)"
+  },
+  "inputs": {
+    "origin": "sfo",
+    "destination": "san",
+    "trip_length": "5 (default)",
+    "raw_input": "sfo/san - filters = []"
+  },
+  "results": {
+    "3": [
+      {
+        "day": "2015-06-15",
+        "fare": 303.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-16",
+        "fare": 303.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-17",
+        "fare": 303.2,
+        "non_stop_fare": 309.2
+      },
+      {
+        "day": "2015-06-18",
+        "fare": 303.2,
+        "non_stop_fare": 319.2
+      },
+      {
+        "day": "2015-06-19",
+        "fare": 303.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-20",
+        "fare": 282.2,
+        "non_stop_fare": 282.2
+      },
+      {
+        "day": "2015-06-21",
+        "fare": 282.2,
+        "non_stop_fare": 282.2
+      },
+      {
+        "day": "2015-06-22",
+        "fare": 292.2,
+        "non_stop_fare": 292.2
+      },
+      {
+        "day": "2015-06-23",
+        "fare": 302.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-24",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-06-25",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-06-26",
+        "fare": 270.2,
+        "non_stop_fare": 270.2
+      },
+      {
+        "day": "2015-06-27",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-06-28",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-06-29",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-06-30",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-02",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-03",
+        "fare": 264.2,
+        "non_stop_fare": 264.2
+      },
+      {
+        "day": "2015-07-04",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-05",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-07-06",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-07",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-08",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-09",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-10",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-11",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-12",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-07-13",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-14",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-15",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-16",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-17",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-18",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-19",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-07-20",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-21",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-22",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-23",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-24",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-25",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-26",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-07-27",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-28",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-29",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-30",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-07-31",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-08-01",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-08-02",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-08-03",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-08-04",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-08-05",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-08-06",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-08-07",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-08-08",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-08-09",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-08-10",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-08-11",
+        "fare": 243.2,
+        "non_stop_fare": 243.2
+      },
+      {
+        "day": "2015-08-12",
+        "fare": 233.2,
+        "non_stop_fare": 233.2
+      },
+      {
+        "day": "2015-08-13",
+        "fare": 278.2,
+        "non_stop_fare": 278.2
+      },
+      {
+        "day": "2015-08-14",
+        "fare": 258.2,
+        "non_stop_fare": 258.2
+      },
+      {
+        "day": "2015-08-15",
+        "fare": 233.2,
+        "non_stop_fare": 233.2
+      },
+      {
+        "day": "2015-08-16",
+        "fare": 253.2,
+        "non_stop_fare": 253.2
+      },
+      {
+        "day": "2015-08-17",
+        "fare": 243.2,
+        "non_stop_fare": 243.2
+      },
+      {
+        "day": "2015-08-18",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-19",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-20",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-21",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-22",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-23",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-24",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-25",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-26",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-27",
+        "fare": 260.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-28",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-29",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-30",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-31",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-01",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-02",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-03",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-04",
+        "fare": 254.2,
+        "non_stop_fare": 254.2
+      },
+      {
+        "day": "2015-09-05",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-06",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-07",
+        "fare": 260.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-09",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-10",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-11",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-12",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-13",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-14",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-15",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-16",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-17",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-18",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-19",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-20",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-21",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-22",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-23",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-24",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-25",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-26",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-27",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-28",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-29",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-30",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-02",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-03",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-04",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-05",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-06",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-07",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-09",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-10",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-11",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-12",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-13",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-14",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-15",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-16",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-17",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-18",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-19",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-20",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-21",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-22",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-23",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-24",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-25",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-26",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-27",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-28",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-29",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-30",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-31",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-01",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-02",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-03",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-04",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-05",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-06",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-07",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-08",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-09",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-10",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-11",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-12",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-13",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-14",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-15",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-16",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-17",
+        "fare": 265.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-18",
+        "fare": 256.7,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-11-19",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-20",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-11-21",
+        "fare": 281.2,
+        "non_stop_fare": 281.2
+      },
+      {
+        "day": "2015-11-22",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-11-23",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-24",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-11-25",
+        "fare": 292.2,
+        "non_stop_fare": 355.2
+      },
+      {
+        "day": "2015-11-26",
+        "fare": 296.7,
+        "non_stop_fare": 372.2
+      },
+      {
+        "day": "2015-11-27",
+        "fare": 262.2,
+        "non_stop_fare": 332.2
+      },
+      {
+        "day": "2015-11-28",
+        "fare": 275.2,
+        "non_stop_fare": 322.2
+      },
+      {
+        "day": "2015-11-29",
+        "fare": 305.2,
+        "non_stop_fare": 372.2
+      },
+      {
+        "day": "2015-11-30",
+        "fare": 262.2,
+        "non_stop_fare": 332.2
+      },
+      {
+        "day": "2015-12-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-02",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-03",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-04",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-05",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-06",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-07",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-09",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-10",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-11",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-12",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-13",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-14",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-15",
+        "fare": 258.2,
+        "non_stop_fare": 258.2
+      },
+      {
+        "day": "2015-12-16",
+        "fare": 258.2,
+        "non_stop_fare": 258.2
+      },
+      {
+        "day": "2015-12-17",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-18",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-19",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-20",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-21",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-22",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-23",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-24",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      }
+    ],
+    "4": [
+      {
+        "day": "2015-06-15",
+        "fare": 303.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-16",
+        "fare": 303.2,
+        "non_stop_fare": 309.2
+      },
+      {
+        "day": "2015-06-17",
+        "fare": 303.2,
+        "non_stop_fare": 309.2
+      },
+      {
+        "day": "2015-06-18",
+        "fare": 303.2,
+        "non_stop_fare": 319.2
+      },
+      {
+        "day": "2015-06-19",
+        "fare": 296.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-20",
+        "fare": 282.2,
+        "non_stop_fare": 282.2
+      },
+      {
+        "day": "2015-06-21",
+        "fare": 292.2,
+        "non_stop_fare": 292.2
+      },
+      {
+        "day": "2015-06-22",
+        "fare": 337.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-23",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-06-24",
+        "fare": 273.2,
+        "non_stop_fare": 273.2
+      },
+      {
+        "day": "2015-06-25",
+        "fare": 270.2,
+        "non_stop_fare": 270.2
+      },
+      {
+        "day": "2015-06-26",
+        "fare": 280.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-27",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-06-28",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-06-29",
+        "fare": 263.2,
+        "non_stop_fare": 263.2
+      },
+      {
+        "day": "2015-06-30",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-01",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-07-02",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-03",
+        "fare": 241.2,
+        "non_stop_fare": 241.2
+      },
+      {
+        "day": "2015-07-04",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-05",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-06",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-07",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-08",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-07-09",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-10",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-11",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-12",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-13",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-14",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-15",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-07-16",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-17",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-18",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-19",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-20",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-21",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-22",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-07-23",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-24",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-25",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-26",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-27",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-28",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-29",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-30",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-31",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-08-01",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-08-02",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-08-03",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-08-04",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-08-05",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-08-06",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-08-07",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-08-08",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-08-09",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-08-10",
+        "fare": 268.2,
+        "non_stop_fare": 268.2
+      },
+      {
+        "day": "2015-08-11",
+        "fare": 233.2,
+        "non_stop_fare": 233.2
+      },
+      {
+        "day": "2015-08-12",
+        "fare": 253.2,
+        "non_stop_fare": 253.2
+      },
+      {
+        "day": "2015-08-13",
+        "fare": 268.2,
+        "non_stop_fare": 268.2
+      },
+      {
+        "day": "2015-08-14",
+        "fare": 243.2,
+        "non_stop_fare": 243.2
+      },
+      {
+        "day": "2015-08-15",
+        "fare": 233.2,
+        "non_stop_fare": 233.2
+      },
+      {
+        "day": "2015-08-16",
+        "fare": 253.2,
+        "non_stop_fare": 253.2
+      },
+      {
+        "day": "2015-08-17",
+        "fare": 243.2,
+        "non_stop_fare": 243.2
+      },
+      {
+        "day": "2015-08-18",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-19",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-20",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-21",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-22",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-23",
+        "fare": 260.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-24",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-25",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-26",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-27",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-28",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-29",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-30",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-31",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-01",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-02",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-03",
+        "fare": 241.2,
+        "non_stop_fare": 241.2
+      },
+      {
+        "day": "2015-09-04",
+        "fare": 241.2,
+        "non_stop_fare": 241.2
+      },
+      {
+        "day": "2015-09-05",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-06",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-07",
+        "fare": 241.2,
+        "non_stop_fare": 241.2
+      },
+      {
+        "day": "2015-09-08",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-09",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-10",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-11",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-12",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-13",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-14",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-15",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-16",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-17",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-18",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-19",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-20",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-21",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-22",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-23",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-24",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-25",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-26",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-27",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-28",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-29",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-30",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-02",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-03",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-04",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-05",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-06",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-07",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-09",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-10",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-11",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-12",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-13",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-14",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-15",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-16",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-17",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-18",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-19",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-20",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-21",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-22",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-23",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-24",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-25",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-26",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-27",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-28",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-29",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-30",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-31",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-01",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-02",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-03",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-04",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-05",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-06",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-07",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-08",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-09",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-10",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-11",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-12",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-13",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-14",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-15",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-16",
+        "fare": 265.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-17",
+        "fare": 265.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-18",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-19",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-20",
+        "fare": 281.2,
+        "non_stop_fare": 281.2
+      },
+      {
+        "day": "2015-11-21",
+        "fare": 281.2,
+        "non_stop_fare": 281.2
+      },
+      {
+        "day": "2015-11-22",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-23",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-24",
+        "fare": 286.7,
+        "non_stop_fare": 342.2
+      },
+      {
+        "day": "2015-11-25",
+        "fare": 294.2,
+        "non_stop_fare": 405.2
+      },
+      {
+        "day": "2015-11-26",
+        "fare": 262.2,
+        "non_stop_fare": 332.2
+      },
+      {
+        "day": "2015-11-27",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-28",
+        "fare": 275.2,
+        "non_stop_fare": 322.2
+      },
+      {
+        "day": "2015-11-29",
+        "fare": 305.2,
+        "non_stop_fare": 372.2
+      },
+      {
+        "day": "2015-11-30",
+        "fare": 262.2,
+        "non_stop_fare": 332.2
+      },
+      {
+        "day": "2015-12-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-02",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-03",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-04",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-05",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-06",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-07",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-09",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-10",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-11",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-12",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-13",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-14",
+        "fare": 258.2,
+        "non_stop_fare": 258.2
+      },
+      {
+        "day": "2015-12-15",
+        "fare": 258.2,
+        "non_stop_fare": 258.2
+      },
+      {
+        "day": "2015-12-16",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-12-17",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-18",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-19",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-20",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-21",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-22",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-23",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-24",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      }
+    ],
+    "5": [
+      {
+        "day": "2015-06-15",
+        "fare": 303.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-16",
+        "fare": 303.2,
+        "non_stop_fare": 309.2
+      },
+      {
+        "day": "2015-06-17",
+        "fare": 303.2,
+        "non_stop_fare": 309.2
+      },
+      {
+        "day": "2015-06-18",
+        "fare": 296.2,
+        "non_stop_fare": 309.2
+      },
+      {
+        "day": "2015-06-19",
+        "fare": 296.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-20",
+        "fare": 292.2,
+        "non_stop_fare": 292.2
+      },
+      {
+        "day": "2015-06-21",
+        "fare": 337.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-22",
+        "fare": 270.2,
+        "non_stop_fare": 270.2
+      },
+      {
+        "day": "2015-06-23",
+        "fare": 273.2,
+        "non_stop_fare": 273.2
+      },
+      {
+        "day": "2015-06-24",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-06-25",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-06-26",
+        "fare": 280.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-27",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-06-28",
+        "fare": 263.2,
+        "non_stop_fare": 263.2
+      },
+      {
+        "day": "2015-06-29",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-06-30",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-07-01",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-02",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-03",
+        "fare": 241.2,
+        "non_stop_fare": 241.2
+      },
+      {
+        "day": "2015-07-04",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-05",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-06",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-07-07",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-07-08",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-09",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-10",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-11",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-07-12",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-13",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-07-14",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-07-15",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-16",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-17",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-18",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-07-19",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-20",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-07-21",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-07-22",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-23",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-24",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-25",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-07-26",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-27",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-07-28",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-29",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-30",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-31",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-08-01",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-08-02",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-08-03",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-08-04",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-08-05",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-08-06",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-08-07",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-08-08",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-08-09",
+        "fare": 278.2,
+        "non_stop_fare": 278.2
+      },
+      {
+        "day": "2015-08-10",
+        "fare": 258.2,
+        "non_stop_fare": 258.2
+      },
+      {
+        "day": "2015-08-11",
+        "fare": 253.2,
+        "non_stop_fare": 253.2
+      },
+      {
+        "day": "2015-08-12",
+        "fare": 243.2,
+        "non_stop_fare": 243.2
+      },
+      {
+        "day": "2015-08-13",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-08-14",
+        "fare": 243.2,
+        "non_stop_fare": 243.2
+      },
+      {
+        "day": "2015-08-15",
+        "fare": 233.2,
+        "non_stop_fare": 233.2
+      },
+      {
+        "day": "2015-08-16",
+        "fare": 253.2,
+        "non_stop_fare": 253.2
+      },
+      {
+        "day": "2015-08-17",
+        "fare": 243.2,
+        "non_stop_fare": 243.2
+      },
+      {
+        "day": "2015-08-18",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-19",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-20",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-21",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-22",
+        "fare": 260.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-23",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-24",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-25",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-26",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-27",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-28",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-29",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-30",
+        "fare": 241.2,
+        "non_stop_fare": 241.2
+      },
+      {
+        "day": "2015-08-31",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-01",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-02",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-03",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-04",
+        "fare": 260.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-05",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-06",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-07",
+        "fare": 260.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-09",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-10",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-11",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-12",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-13",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-14",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-15",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-16",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-17",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-18",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-19",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-20",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-21",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-22",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-23",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-24",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-25",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-26",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-27",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-28",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-29",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-30",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-02",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-03",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-04",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-05",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-06",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-07",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-09",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-10",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-11",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-12",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-13",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-14",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-15",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-16",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-17",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-18",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-19",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-20",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-21",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-22",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-23",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-24",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-25",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-26",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-27",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-28",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-29",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-30",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-31",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-02",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-03",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-04",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-05",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-06",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-07",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-09",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-10",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-11",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-12",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-13",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-14",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-15",
+        "fare": 256.7,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-11-16",
+        "fare": 265.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-17",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-18",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-19",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-11-20",
+        "fare": 281.2,
+        "non_stop_fare": 281.2
+      },
+      {
+        "day": "2015-11-21",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-11-22",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-23",
+        "fare": 266.7,
+        "non_stop_fare": 322.2
+      },
+      {
+        "day": "2015-11-24",
+        "fare": 294.2,
+        "non_stop_fare": 392.2
+      },
+      {
+        "day": "2015-11-25",
+        "fare": 282.2,
+        "non_stop_fare": 365.2
+      },
+      {
+        "day": "2015-11-26",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-27",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-28",
+        "fare": 275.2,
+        "non_stop_fare": 322.2
+      },
+      {
+        "day": "2015-11-29",
+        "fare": 305.2,
+        "non_stop_fare": 372.2
+      },
+      {
+        "day": "2015-11-30",
+        "fare": 262.2,
+        "non_stop_fare": 332.2
+      },
+      {
+        "day": "2015-12-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-02",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-03",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-04",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-05",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-06",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-07",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-09",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-10",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-11",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-12",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-13",
+        "fare": 258.2,
+        "non_stop_fare": 258.2
+      },
+      {
+        "day": "2015-12-14",
+        "fare": 258.2,
+        "non_stop_fare": 258.2
+      },
+      {
+        "day": "2015-12-15",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-12-16",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-12-17",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-18",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-19",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-20",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-21",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-22",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-23",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-24",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      }
+    ],
+    "6": [
+      {
+        "day": "2015-06-15",
+        "fare": 303.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-16",
+        "fare": 303.2,
+        "non_stop_fare": 309.2
+      },
+      {
+        "day": "2015-06-17",
+        "fare": 296.2,
+        "non_stop_fare": 299.2
+      },
+      {
+        "day": "2015-06-18",
+        "fare": 296.2,
+        "non_stop_fare": 309.2
+      },
+      {
+        "day": "2015-06-19",
+        "fare": 303.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-20",
+        "fare": 337.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-21",
+        "fare": 270.2,
+        "non_stop_fare": 270.2
+      },
+      {
+        "day": "2015-06-22",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-06-23",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-06-24",
+        "fare": 250.2,
+        "non_stop_fare": 250.2
+      },
+      {
+        "day": "2015-06-25",
+        "fare": 260.2,
+        "non_stop_fare": 260.2
+      },
+      {
+        "day": "2015-06-26",
+        "fare": 309.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-27",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-06-28",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-06-29",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-06-30",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-02",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-03",
+        "fare": 264.2,
+        "non_stop_fare": 264.2
+      },
+      {
+        "day": "2015-07-04",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-05",
+        "fare": 270.2,
+        "non_stop_fare": 270.2
+      },
+      {
+        "day": "2015-07-06",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-07",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-09",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-10",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-11",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-07-12",
+        "fare": 270.2,
+        "non_stop_fare": 270.2
+      },
+      {
+        "day": "2015-07-13",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-14",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-15",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-16",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-17",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-18",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-07-19",
+        "fare": 270.2,
+        "non_stop_fare": 270.2
+      },
+      {
+        "day": "2015-07-20",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-07-21",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-22",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-23",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-24",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-25",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-07-26",
+        "fare": 270.2,
+        "non_stop_fare": 270.2
+      },
+      {
+        "day": "2015-07-27",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-07-28",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-29",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-30",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-07-31",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-08-01",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-08-02",
+        "fare": 270.2,
+        "non_stop_fare": 270.2
+      },
+      {
+        "day": "2015-08-03",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-08-04",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-08-05",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-06",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-08-07",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-08-08",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-08-09",
+        "fare": 268.2,
+        "non_stop_fare": 268.2
+      },
+      {
+        "day": "2015-08-10",
+        "fare": 278.2,
+        "non_stop_fare": 278.2
+      },
+      {
+        "day": "2015-08-11",
+        "fare": 243.2,
+        "non_stop_fare": 243.2
+      },
+      {
+        "day": "2015-08-12",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-13",
+        "fare": 251.2,
+        "non_stop_fare": 251.2
+      },
+      {
+        "day": "2015-08-14",
+        "fare": 243.2,
+        "non_stop_fare": 243.2
+      },
+      {
+        "day": "2015-08-15",
+        "fare": 233.2,
+        "non_stop_fare": 233.2
+      },
+      {
+        "day": "2015-08-16",
+        "fare": 253.2,
+        "non_stop_fare": 253.2
+      },
+      {
+        "day": "2015-08-17",
+        "fare": 243.2,
+        "non_stop_fare": 243.2
+      },
+      {
+        "day": "2015-08-18",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-19",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-20",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-21",
+        "fare": 260.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-22",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-23",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-24",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-25",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-26",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-27",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-28",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-29",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-30",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-31",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-01",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-02",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-03",
+        "fare": 260.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-04",
+        "fare": 260.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-05",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-06",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-07",
+        "fare": 241.2,
+        "non_stop_fare": 241.2
+      },
+      {
+        "day": "2015-09-08",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-09",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-10",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-11",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-12",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-13",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-14",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-15",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-16",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-17",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-18",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-19",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-20",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-21",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-22",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-23",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-24",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-25",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-26",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-27",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-28",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-29",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-30",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-02",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-03",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-04",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-05",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-06",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-07",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-09",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-10",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-11",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-12",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-13",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-14",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-15",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-16",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-17",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-18",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-19",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-20",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-21",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-22",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-23",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-24",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-25",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-26",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-27",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-28",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-29",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-30",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-31",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-01",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-02",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-03",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-04",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-05",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-06",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-07",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-08",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-09",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-10",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-11",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-12",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-13",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-14",
+        "fare": 265.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-15",
+        "fare": 256.7,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-11-16",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-17",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-18",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-11-19",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-11-20",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-11-21",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-11-22",
+        "fare": 266.7,
+        "non_stop_fare": 322.2
+      },
+      {
+        "day": "2015-11-23",
+        "fare": 274.2,
+        "non_stop_fare": 372.2
+      },
+      {
+        "day": "2015-11-24",
+        "fare": 282.2,
+        "non_stop_fare": 352.2
+      },
+      {
+        "day": "2015-11-25",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-11-26",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-27",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-28",
+        "fare": 275.2,
+        "non_stop_fare": 322.2
+      },
+      {
+        "day": "2015-11-29",
+        "fare": 305.2,
+        "non_stop_fare": 372.2
+      },
+      {
+        "day": "2015-11-30",
+        "fare": 262.2,
+        "non_stop_fare": 332.2
+      },
+      {
+        "day": "2015-12-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-02",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-03",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-04",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-05",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-06",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-07",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-09",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-10",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-11",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-12",
+        "fare": 258.2,
+        "non_stop_fare": 258.2
+      },
+      {
+        "day": "2015-12-13",
+        "fare": 258.2,
+        "non_stop_fare": 258.2
+      },
+      {
+        "day": "2015-12-14",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-12-15",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-12-16",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-12-17",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-18",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-19",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-20",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-21",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-22",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-23",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-24",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      }
+    ],
+    "7": [
+      {
+        "day": "2015-06-15",
+        "fare": 303.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-16",
+        "fare": 296.2,
+        "non_stop_fare": 299.2
+      },
+      {
+        "day": "2015-06-17",
+        "fare": 296.2,
+        "non_stop_fare": 299.2
+      },
+      {
+        "day": "2015-06-18",
+        "fare": 303.2,
+        "non_stop_fare": 319.2
+      },
+      {
+        "day": "2015-06-19",
+        "fare": 337.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-20",
+        "fare": 270.2,
+        "non_stop_fare": 270.2
+      },
+      {
+        "day": "2015-06-21",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-06-22",
+        "fare": 270.2,
+        "non_stop_fare": 270.2
+      },
+      {
+        "day": "2015-06-23",
+        "fare": 250.2,
+        "non_stop_fare": 250.2
+      },
+      {
+        "day": "2015-06-24",
+        "fare": 250.2,
+        "non_stop_fare": 250.2
+      },
+      {
+        "day": "2015-06-25",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-06-26",
+        "fare": 280.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-06-27",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-06-28",
+        "fare": 283.2,
+        "non_stop_fare": 283.2
+      },
+      {
+        "day": "2015-06-29",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-06-30",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-02",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-03",
+        "fare": 264.2,
+        "non_stop_fare": 264.2
+      },
+      {
+        "day": "2015-07-04",
+        "fare": 238.2,
+        "non_stop_fare": 238.2
+      },
+      {
+        "day": "2015-07-05",
+        "fare": 292.2,
+        "non_stop_fare": 292.2
+      },
+      {
+        "day": "2015-07-06",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-07",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-09",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-10",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-11",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-07-12",
+        "fare": 292.2,
+        "non_stop_fare": 292.2
+      },
+      {
+        "day": "2015-07-13",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-14",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-15",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-16",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-17",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-18",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-07-19",
+        "fare": 292.2,
+        "non_stop_fare": 292.2
+      },
+      {
+        "day": "2015-07-20",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-21",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-22",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-23",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-24",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-25",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-07-26",
+        "fare": 270.2,
+        "non_stop_fare": 270.2
+      },
+      {
+        "day": "2015-07-27",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-28",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-29",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-07-30",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-07-31",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-08-01",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-08-02",
+        "fare": 292.2,
+        "non_stop_fare": 292.2
+      },
+      {
+        "day": "2015-08-03",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-08-04",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-05",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-06",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-08-07",
+        "fare": 274.2,
+        "non_stop_fare": 274.2
+      },
+      {
+        "day": "2015-08-08",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-08-09",
+        "fare": 288.2,
+        "non_stop_fare": 288.2
+      },
+      {
+        "day": "2015-08-10",
+        "fare": 268.2,
+        "non_stop_fare": 268.2
+      },
+      {
+        "day": "2015-08-11",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-12",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-13",
+        "fare": 253.2,
+        "non_stop_fare": 253.2
+      },
+      {
+        "day": "2015-08-14",
+        "fare": 243.2,
+        "non_stop_fare": 243.2
+      },
+      {
+        "day": "2015-08-15",
+        "fare": 233.2,
+        "non_stop_fare": 233.2
+      },
+      {
+        "day": "2015-08-16",
+        "fare": 253.2,
+        "non_stop_fare": 253.2
+      },
+      {
+        "day": "2015-08-17",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-18",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-19",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-20",
+        "fare": 260.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-21",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-22",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-23",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-24",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-25",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-26",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-27",
+        "fare": 275.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-28",
+        "fare": 241.2,
+        "non_stop_fare": 241.2
+      },
+      {
+        "day": "2015-08-29",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-08-30",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-08-31",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-01",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-02",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-03",
+        "fare": 260.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-04",
+        "fare": 241.2,
+        "non_stop_fare": 241.2
+      },
+      {
+        "day": "2015-09-05",
+        "fare": 245.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-06",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-07",
+        "fare": 260.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-08",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-09",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-10",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-11",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-12",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-13",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-14",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-15",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-16",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-17",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-09-18",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-19",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-20",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-21",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-22",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-23",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-24",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-25",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-26",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-27",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-28",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-29",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-09-30",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-02",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-03",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-04",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-05",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-06",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-07",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-09",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-10",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-11",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-12",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-13",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-14",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-15",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-16",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-17",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-18",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-19",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-20",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-21",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-22",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-23",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-24",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-25",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-26",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-27",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-28",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-29",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-10-30",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-10-31",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-02",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-03",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-04",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-05",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-06",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-07",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-09",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-10",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-11",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-12",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-13",
+        "fare": 256.7,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-11-14",
+        "fare": 265.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-15",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-16",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-17",
+        "fare": 265.2,
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-11-18",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-11-19",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-20",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-11-21",
+        "fare": 295.2,
+        "non_stop_fare": 355.2
+      },
+      {
+        "day": "2015-11-22",
+        "fare": 274.2,
+        "non_stop_fare": 372.2
+      },
+      {
+        "day": "2015-11-23",
+        "fare": 262.2,
+        "non_stop_fare": 332.2
+      },
+      {
+        "day": "2015-11-24",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-11-25",
+        "fare": 261.2,
+        "non_stop_fare": 261.2
+      },
+      {
+        "day": "2015-11-26",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-27",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-11-28",
+        "fare": 275.2,
+        "non_stop_fare": 322.2
+      },
+      {
+        "day": "2015-11-29",
+        "fare": 305.2,
+        "non_stop_fare": 372.2
+      },
+      {
+        "day": "2015-11-30",
+        "fare": 262.2,
+        "non_stop_fare": 332.2
+      },
+      {
+        "day": "2015-12-01",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-02",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-03",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-04",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-05",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-06",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-07",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-08",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-09",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-10",
+        "fare": 228.2,
+        "non_stop_fare": 228.2
+      },
+      {
+        "day": "2015-12-11",
+        "fare": 258.2,
+        "non_stop_fare": 258.2
+      },
+      {
+        "day": "2015-12-12",
+        "fare": 258.2,
+        "non_stop_fare": 258.2
+      },
+      {
+        "day": "2015-12-13",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-12-14",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-12-15",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-12-16",
+        "fare": 248.2,
+        "non_stop_fare": 248.2
+      },
+      {
+        "day": "2015-12-17",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-18",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-19",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-20",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-21",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-22",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-23",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      },
+      {
+        "day": "2015-12-24",
+        "fare": "N/A",
+        "non_stop_fare": "N/A"
+      }
+    ]
+  }
+}

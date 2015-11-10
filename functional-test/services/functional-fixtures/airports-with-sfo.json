@@ -1,0 +1,23 @@
+{
+  "endpoint_name": "airport",
+  "method": "POST",
+  "result_count": "1",
+  "timing": {
+    " airport Constructor called": "0.006 (0.006)",
+    "  airport Destructor called": "0.006 (0.000)"
+  },
+  "inputs": {
+    "search_string": "sfo",
+    "raw_input": "sfo - additional params = []"
+  },
+  "results": [
+    {
+      "name": "San Francisco International Airport",
+      "city": "San Francisco",
+      "lat": "37.618999",
+      "long": "-122.375000",
+      "iata_code": "SFO",
+      "iso_region": "US-CA"
+    }
+  ]
+}

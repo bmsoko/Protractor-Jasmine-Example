@@ -1,0 +1,62 @@
+{
+  "endpoint_name": "map",
+  "method": "POST",
+  "result_count": "2",
+  "timing": {
+    " map Constructor called": "0.021 (0.021)",
+    "  map Destructor called": "0.021 (0.000)"
+  },
+  "inputs": {
+    "origin": "JFK",
+    "destination": "sfo",
+    "trip_length": "5 (default)",
+    "raw_input": "jfk/sfo - filters = []"
+  },
+  "results": {
+    "origin": {
+      "name": "John F Kennedy International Airport",
+      "city": "New York",
+      "lat": "40.639801",
+      "long": "-73.778900",
+      "iata_code": "JFK",
+      "iso_region": "US-NY"
+    },
+    "destinations": [
+      {
+        "city": "San José del Cabo",
+        "lat": "23.151800",
+        "long": "-109.721001",
+        "fare": "345.67",
+        "currency": "USD"
+      },
+      {
+        "city": "Honolulu",
+        "lat": "21.318701",
+        "long": "-157.921997",
+        "fare": "543.21",
+        "currency": "USD"
+      },
+      {
+        "city": "Fort Lauderdale",
+        "lat": "26.072599",
+        "long": "-80.152702",
+        "fare": "444.44",
+        "currency": "USD"
+      },
+      {
+        "city": "Pangkal Pinang-Palaubangka Island",
+        "lat": "-2.162200",
+        "long": "106.139000",
+        "fare": "1444.44",
+        "currency": "USD"
+      },
+      {
+        "city": "Gold Coast",
+        "lat": "-28.164400",
+        "long": "153.505005",
+        "fare": "2198.76",
+        "currency": "USD"
+      }
+    ]
+  }
+}
